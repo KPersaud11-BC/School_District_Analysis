@@ -7,7 +7,10 @@ The school board determined that the initial analysis showed evidence of academi
 
 ## Resources
 - Data Source: schools_complete.csv, students_complete.csv
-- Software: Anaconda 4.10.1, Pandas Library, kernels PythonData and numpy; Jupyter Notebook 
+- Software: Anaconda 4.10.1, Pandas Library, kernels PythonData and numpy; Jupyter Notebook
+- Reference:
+  - Initial Analysis Code: PyCitySchools.ipynb
+  - Challenge Code: PYCitySchools_Challenge.ipynb
 
 ## Results
 - How is the district summary affected?
