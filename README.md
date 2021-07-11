@@ -13,7 +13,47 @@ The school board determined that the initial analysis showed evidence of academi
   - Challenge Code: PYCitySchools_Challenge.ipynb
 
 ## Results
+The Challenge required me to replace all 9th grade reading and math scores with NaN. This was accomplished using the ```loc``` function. The code used for this is as follows;
+- To replace math scores
+```
+student_data_df.loc[(student_data_df["school_name"]=="Thomas High School") & 
+                    (student_data_df["grade"]=="9th"),["math_score"]]=np.nan
+```
+- To replace reading scores
+```
+student_data_df.loc[(student_data_df["school_name"]=="Thomas High School") & 
+                    (student_data_df["grade"]=="9th"),["reading_score"]]=np.nan
+```
 - How is the district summary affected?
+With the values changed to NaN, the above code was used to determine the count of 9th grade students, and subtract that number from the total student count to create a new total student count. Below is that code
+```
+# Step 1. Get the number of students that are in ninth grade at Thomas High School.
+# These students have no grades. 
+Thomas_df = student_data_df.loc[(student_data_df["school_name"]=="Thomas High School") & 
+                    (student_data_df["grade"]=="9th")]
+Thomas_ninth_count= Thomas_df["Student ID"].count()
+
+# Get the total student count 
+student_count = school_data_complete_df["Student ID"].count()
+student_count
+# Step 2. Subtract the number of students that are in ninth grade at 
+# Thomas High School from the total student count to get the new total student count.
+new_student_count = student_count - Thomas_ninth_count
+new_student_count
+```
+This ```new_student_count ``` was used to recalculate the percentages of students who passed math, reading, and overall. Below is the example for just math. The code was refactored for the other instances.
+```
+new_passing_math_percentage = (passing_math_count / float(new_student_count)) * 100
+```
+
+
+
+
+
+
+
+
+
 - How is the school summary affected?
 - How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 - How does replacing the ninth-grade scores affect the following:
