@@ -14,18 +14,19 @@ The school board determined that the initial analysis showed evidence of academi
 
 ## Results
 The Challenge required me to replace all 9th grade reading and math scores with NaN. This was accomplished using the ```loc``` function. The code used for this is as follows;
-- To replace math scores
+To replace math scores:
 ```
 student_data_df.loc[(student_data_df["school_name"]=="Thomas High School") & 
                     (student_data_df["grade"]=="9th"),["math_score"]]=np.nan
 ```
-- To replace reading scores
+To replace reading scores:
 ```
 student_data_df.loc[(student_data_df["school_name"]=="Thomas High School") & 
                     (student_data_df["grade"]=="9th"),["reading_score"]]=np.nan
 ```
-- How is the district summary affected?
-With the values changed to NaN, the above code was used to determine the count of 9th grade students, and subtract that number from the total student count to create a new total student count. Below is that code
+- **How is the district summary affected?**
+
+With the values changed to NaN, the above code was used to determine the count of 9th grade students, and subtract that number from the total student count to create a new     total student count. Below is that code.
 ```
 # Step 1. Get the number of students that are in ninth grade at Thomas High School.
 # These students have no grades. 
@@ -41,16 +42,16 @@ student_count
 new_student_count = student_count - Thomas_ninth_count
 new_student_count
 ```
-This ```new_student_count ``` was used to recalculate the percentages of students who passed math, reading, and overall. Below is the example for just math. The code was refactored for the other instances.
+This ```new_student_count``` was used to recalculate the percentages of students who passed math, reading, and overall, and created new variables. Below is the example for just math. The code was refactored for the other instances.
 ```
 new_passing_math_percentage = (passing_math_count / float(new_student_count)) * 100
 ```
+The Challenge District Summary values for Average Math Score, % Passing Math, % Passing Reading, and % Overall Passing all decreased by between 0.1 and 0.3 percentage points. This was a minor change, as we only changed approximately 461 entries out of 39,170 (1.2% change). The outputs of the Dataframes show the difference.
+
+Initial Analysis Code:
 
 
-
-
-
-
+Challenge Code:
 
 
 
