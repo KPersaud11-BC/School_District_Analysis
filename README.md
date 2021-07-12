@@ -74,6 +74,8 @@ Insert Pic Here
 
 - **How does replacing the ninth-grade scores affect the following:**
   - Math and reading scores by grade
+   - In the tables that show math and reading scores by grade, replacing the ninth grade values simply show nan in for Thomas HS.
+    
   - Scores by school spending
   - Scores by school size
   - Scores by school type
