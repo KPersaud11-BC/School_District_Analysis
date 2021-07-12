@@ -56,25 +56,14 @@ Challenge Code:
 
 
 - **How is the school summary affected?**
-In the Initial Analysis Code, Thomas High School had the following output.
-
-Insert Pic Here
-
-In the Challenge code, we recalculated Thomas High School's passing percentages using only the population of 10th-12th grade students. The following Dataframe was produced.
-
-Insert Pic Here
-
-Thomas High School's % Passing Math increased from 66.9% to 93.2%. % Passing Reading increased from 69.7% to 97.0%. % Overall Passing increased from 65.1% to 90.6%.
+There is a very slight decrease in the average scores and the % passing for each subject area and overall.
 
 - **How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?**
-
-In the Initial Analysis Code, Thomas High School fell in the middle with its performance compared to other schools. After the replacement in the Challenge Code, Thomas High School jumps to the High Performing Schools list shown below. It is number 2 out of the 15 schools in the district.
-
-Insert Pic Here
+There is no change in Thomas High School's performance relative to the other schools. It remains in the high performing schools dataframe in both analyses
 
 - **How does replacing the ninth-grade scores affect the following:**
   - Math and reading scores by grade
-   - In the tables that show math and reading scores by grade, replacing the ninth grade values simply show nan in for Thomas HS.
+  
     
   - Scores by school spending
   - Scores by school size
