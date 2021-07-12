@@ -59,11 +59,11 @@ Challenge Code:
 - **How is the school summary affected?**
 There is a slight decrease in the average scores and the % passing for each subject area and overall, except for average reading which saw a slight increase. The most notable difference is the decrease in % Overall Passing by 0.3 percentage points
 
-Initial Analysis Code:
+**Initial Analysis Code:**
 ![Header](https://user-images.githubusercontent.com/84286467/125217848-a9afbf00-e28f-11eb-8f96-0cff1978b481.PNG)
 ![Initial Code School Summary](https://user-images.githubusercontent.com/84286467/125217793-89800000-e28f-11eb-818c-c9a7e53d3ff9.PNG)
 
-Challenge Code:
+**Challenge Code:**
 ![Challenge Code School Summary](https://user-images.githubusercontent.com/84286467/125217800-8f75e100-e28f-11eb-9537-f8cfe326dc4d.PNG)
 
 - **How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?**
@@ -81,20 +81,33 @@ There is no change in Thomas High School's performance relative to the other sch
   
   There is a very slight decrease across all column categories in the $630-644 bin, in which Thomas High School is categorized. However, since the difference in the hundredths and thousandths, it is unnoticeable when rounded using our formatting.
   
-  Initial Analysis Code:
+  **Initial Analysis Code:**
   <img src="https://user-images.githubusercontent.com/84286467/125218134-4a05e380-e290-11eb-84e1-62ab583757b6.PNG" width="810" height="186">
 
-  Challenge Code:
+  **Challenge Code:**
   ![Challenge_spending](https://user-images.githubusercontent.com/84286467/125218787-9e5d9300-e291-11eb-93b2-56655a660563.PNG)
   
   - Scores by school size
   
   There is a very slight decrease across all column categories in the Medium size bin, in which Thomas High School is categorized. However, since the difference in the     hundredths and thousandths, it is unnoticeable when rounded using our formatting.
- 
- - Scores by school type
+  
+  **Initial Analysis Code:**
+  <img src="https://user-images.githubusercontent.com/84286467/125218884-d1a02200-e291-11eb-8050-59751887f56f.PNG" width="810" height="186">
+
+  **Challenge Code:**
+  ![Challenge_size](https://user-images.githubusercontent.com/84286467/125218935-f6949500-e291-11eb-8794-01c6cf26954d.PNG)
+
+  - Scores by school type
   
   There is a very slight decrease across all column categories in the Charter type, in which Thomas High School is categorized. However, since the difference in the     hundredths and thousandths, it is unnoticeable when rounded using our formatting.
+  
+  **Initial Analysis Code:**
+  <img src="https://user-images.githubusercontent.com/84286467/125219056-26dc3380-e292-11eb-8b96-f0dbec0dee62.PNG" width="810" height="186">
+  
+  **Challenge Code:**
+  ![Challenge_type](https://user-images.githubusercontent.com/84286467/125219134-4f642d80-e292-11eb-8fd5-9cd5ea73799e.PNG)
 
   
 ## Summary 
-Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+Summarize four changes in the updated school district analysis after reading and math scores 
+for the ninth grade at Thomas High School have been replaced with NaNs.
