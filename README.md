@@ -73,6 +73,7 @@ There is no change in Thomas High School's performance relative to the other sch
 
 - **How does replacing the ninth-grade scores affect the following:**
   - Math and reading scores by grade
+  
   By removing 9th grade math and reading scores from Thomas HS, the dataframes show nan for that intersection.
   
   ![By_Grade](https://user-images.githubusercontent.com/84286467/125218082-26db3400-e290-11eb-838e-0f5e42d80b9b.PNG)
@@ -82,9 +83,11 @@ There is no change in Thomas High School's performance relative to the other sch
   There is a very slight decrease across all column categories in the $630-644 bin, in which Thomas High School is categorized. However, since the difference in the hundredths and thousandths, it is unnoticeable when rounded using our formatting.
   
   **Initial Analysis Code:**
+  
   <img src="https://user-images.githubusercontent.com/84286467/125218134-4a05e380-e290-11eb-84e1-62ab583757b6.PNG" width="810" height="186">
 
   **Challenge Code:**
+  
   ![Challenge_spending](https://user-images.githubusercontent.com/84286467/125218787-9e5d9300-e291-11eb-93b2-56655a660563.PNG)
   
   - Scores by school size
@@ -92,9 +95,11 @@ There is no change in Thomas High School's performance relative to the other sch
   There is a very slight decrease across all column categories in the Medium size bin, in which Thomas High School is categorized. However, since the difference in the     hundredths and thousandths, it is unnoticeable when rounded using our formatting.
   
   **Initial Analysis Code:**
+  
   <img src="https://user-images.githubusercontent.com/84286467/125218884-d1a02200-e291-11eb-8050-59751887f56f.PNG" width="810" height="186">
 
   **Challenge Code:**
+  
   ![Challenge_size](https://user-images.githubusercontent.com/84286467/125218935-f6949500-e291-11eb-8794-01c6cf26954d.PNG)
 
   - Scores by school type
@@ -102,9 +107,11 @@ There is no change in Thomas High School's performance relative to the other sch
   There is a very slight decrease across all column categories in the Charter type, in which Thomas High School is categorized. However, since the difference in the     hundredths and thousandths, it is unnoticeable when rounded using our formatting.
   
   **Initial Analysis Code:**
+  
   <img src="https://user-images.githubusercontent.com/84286467/125219056-26dc3380-e292-11eb-8b96-f0dbec0dee62.PNG" width="810" height="186">
   
   **Challenge Code:**
+  
   ![Challenge_type](https://user-images.githubusercontent.com/84286467/125219134-4f642d80-e292-11eb-8fd5-9cd5ea73799e.PNG)
 
   
