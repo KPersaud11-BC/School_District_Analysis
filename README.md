@@ -114,7 +114,5 @@ There is no change in Thomas High School's performance relative to the other sch
   
   ![Challenge_type](https://user-images.githubusercontent.com/84286467/125219134-4f642d80-e292-11eb-8fd5-9cd5ea73799e.PNG)
 
-  
 ## Summary 
-Summarize four changes in the updated school district analysis after reading and math scores 
-for the ninth grade at Thomas High School have been replaced with NaNs.
+In summary, there were minor differences in the Challenge Code compared to the Initial Analysis Code after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs. They are detailed in the above results. But as a summary, there were decreases in average math and reading scores, decreases in math and reading passing percentages, and decreases in overall passing percentages in mostly all instances.
