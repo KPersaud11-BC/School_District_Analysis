@@ -1,7 +1,7 @@
 # School_District_Analysis by Kieran Persaud
 
 ## Overview of the School District Analysis
-In the initial analyis, I utilized Anaconda's Jupyter notebook feature, along with the Pandas library, to analyze school funding and student test scores in a particular district. The data was aggregated and summarized in various Dataframes that showed trends in test performance and budget spent per student, across different factors like school size and grade. This was reported to the school board to assist in their decision making.
+In the initial analysis, I utilized Anaconda's Jupyter notebook feature, along with the Pandas library, to analyze school funding and student test scores in a particular district. The data was aggregated and summarized in various Dataframes that showed trends in test performance and budget spent per student, across different factors like school size and grade. This was reported to the school board to assist in their decision making.
 
 The school board determined that the initial analysis showed evidence of academic dishonesty; specifically, reading and math grades for Thomas High School ninth graders appear to have been altered. In the Challenge, I was asked to replace the math and reading scores for Thomas High School with NaNs while keeping the rest of the data intact. I re-ran the school district analysis, and was tasked with determining differences between the initial analysis and the Challenge
 
@@ -58,16 +58,26 @@ Challenge Code:
 - **How is the school summary affected?**
 There is a very slight decrease in the average scores and the % passing for each subject area and overall.
 
+Initial Analysis Code:
+
+
+Challenge Code:
+
+
 - **How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?**
-There is no change in Thomas High School's performance relative to the other schools. It remains in the high performing schools dataframe in both analyses
+There is no change in Thomas High School's performance relative to the other schools. It remains in the high performing schools dataframe in both analyses.
 
 - **How does replacing the ninth-grade scores affect the following:**
   - Math and reading scores by grade
-  
+  By removing 9th grade math and reading scores from Thomas HS, the dataframes show nan for that intersection.
     
   - Scores by school spending
+  There is a very slight decrease across all column categories in the $630-644 bin, in which Thomas High School is categorized. However, since the difference in the hundredths and thousandths, it is unnoticeable when rounded using our formatting.
   - Scores by school size
+  There is a very slight decrease across all column categories in the Medium size bin, in which Thomas High School is categorized. However, since the difference in the     hundredths and thousandths, it is unnoticeable when rounded using our formatting.
   - Scores by school type
+  There is a very slight decrease across all column categories in the Charter type, in which Thomas High School is categorized. However, since the difference in the     hundredths and thousandths, it is unnoticeable when rounded using our formatting.
 
+  
 ## Summary 
 Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
