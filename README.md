@@ -82,9 +82,10 @@ There is no change in Thomas High School's performance relative to the other sch
   There is a very slight decrease across all column categories in the $630-644 bin, in which Thomas High School is categorized. However, since the difference in the hundredths and thousandths, it is unnoticeable when rounded using our formatting.
   
   Initial Analysis Code:
-  ![Initial_spending](https://user-images.githubusercontent.com/84286467/125218134-4a05e380-e290-11eb-84e1-62ab583757b6.PNG)
+  <img src="https://user-images.githubusercontent.com/84286467/125218134-4a05e380-e290-11eb-84e1-62ab583757b6.PNG" width="810" height="186">
 
   Challenge Code:
+  
   ![Challenge_spending](https://user-images.githubusercontent.com/84286467/125218170-58ec9600-e290-11eb-9909-d82cffa30df3.PNG)
   
   - Scores by school size
