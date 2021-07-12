@@ -49,33 +49,50 @@ new_passing_math_percentage = (passing_math_count / float(new_student_count)) * 
 The Challenge District Summary values for Average Math Score, % Passing Math, % Passing Reading, and % Overall Passing all decreased by between 0.1 and 0.3 percentage points. This was a minor change, as we only changed approximately 461 entries out of 39,170 (1.2% change). The outputs of the Dataframes show the difference.
 
 Initial Analysis Code:
-
+![Initial District Summary](https://user-images.githubusercontent.com/84286467/125217730-605f6f80-e28f-11eb-8809-ccced975a522.PNG)
 
 Challenge Code:
+![Challenge District Summary](https://user-images.githubusercontent.com/84286467/125217747-6b1a0480-e28f-11eb-863e-aa5a97e107b5.PNG)
 
 
 
 - **How is the school summary affected?**
-There is a very slight decrease in the average scores and the % passing for each subject area and overall.
+There is a slight decrease in the average scores and the % passing for each subject area and overall, except for average reading which saw a slight increase. The most notable difference is the decrease in % Overall Passing by 0.3 percentage points
 
 Initial Analysis Code:
-
+![Header](https://user-images.githubusercontent.com/84286467/125217848-a9afbf00-e28f-11eb-8f96-0cff1978b481.PNG)
+![Initial Code School Summary](https://user-images.githubusercontent.com/84286467/125217793-89800000-e28f-11eb-818c-c9a7e53d3ff9.PNG)
 
 Challenge Code:
-
+![Challenge Code School Summary](https://user-images.githubusercontent.com/84286467/125217800-8f75e100-e28f-11eb-9537-f8cfe326dc4d.PNG)
 
 - **How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?**
 There is no change in Thomas High School's performance relative to the other schools. It remains in the high performing schools dataframe in both analyses.
 
+![High Performer](https://user-images.githubusercontent.com/84286467/125218075-1fb42600-e290-11eb-8b7b-de2241181de4.PNG)
+
 - **How does replacing the ninth-grade scores affect the following:**
   - Math and reading scores by grade
   By removing 9th grade math and reading scores from Thomas HS, the dataframes show nan for that intersection.
-    
+  
+  ![By_Grade](https://user-images.githubusercontent.com/84286467/125218082-26db3400-e290-11eb-838e-0f5e42d80b9b.PNG)
+
   - Scores by school spending
+  
   There is a very slight decrease across all column categories in the $630-644 bin, in which Thomas High School is categorized. However, since the difference in the hundredths and thousandths, it is unnoticeable when rounded using our formatting.
+  
+  Initial Analysis Code:
+  ![Initial_spending](https://user-images.githubusercontent.com/84286467/125218134-4a05e380-e290-11eb-84e1-62ab583757b6.PNG)
+
+  Challenge Code:
+  ![Challenge_spending](https://user-images.githubusercontent.com/84286467/125218170-58ec9600-e290-11eb-9909-d82cffa30df3.PNG)
+  
   - Scores by school size
+  
   There is a very slight decrease across all column categories in the Medium size bin, in which Thomas High School is categorized. However, since the difference in the     hundredths and thousandths, it is unnoticeable when rounded using our formatting.
-  - Scores by school type
+ 
+ - Scores by school type
+  
   There is a very slight decrease across all column categories in the Charter type, in which Thomas High School is categorized. However, since the difference in the     hundredths and thousandths, it is unnoticeable when rounded using our formatting.
 
   
