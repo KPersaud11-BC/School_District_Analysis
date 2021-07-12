@@ -85,8 +85,7 @@ There is no change in Thomas High School's performance relative to the other sch
   <img src="https://user-images.githubusercontent.com/84286467/125218134-4a05e380-e290-11eb-84e1-62ab583757b6.PNG" width="810" height="186">
 
   Challenge Code:
-  
-  ![Challenge_spending](https://user-images.githubusercontent.com/84286467/125218170-58ec9600-e290-11eb-9909-d82cffa30df3.PNG)
+  ![Challenge_spending](https://user-images.githubusercontent.com/84286467/125218787-9e5d9300-e291-11eb-93b2-56655a660563.PNG)
   
   - Scores by school size
   
